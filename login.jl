@@ -21,8 +21,8 @@ headers = Dict(
 
 body = Dict(
     "ReturnUrl" => amp_unescaped,
-    "Username" => "elrefaei.omar@gmail.com",
-    "Password" => "Component8@Clause@Unraveled",
+    "Username" => "RETRACTED",
+    "Password" => "RETRACTED",
     "button" => "login",
     "__RequestVerificationToken" =>verification_token,
     "RememberLogin" => "false"
