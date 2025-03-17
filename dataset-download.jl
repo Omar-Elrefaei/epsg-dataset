@@ -18,7 +18,7 @@ function get_downloads_page()::HTMLDocument
   @info "Step 1: fetch the espg-download.html page"
   # Clear cookies to make sure we are starting the process from scratch 
   HTTP.CookieRequest.COOKIEJAR.entries |> empty!
-  include("../login-cleaned.jl")
+  include("./login.jl")
   
   resp = HTTP.get("https://epsg.org/download-dataset.html")
   html = parsehtml(String(resp.body))
